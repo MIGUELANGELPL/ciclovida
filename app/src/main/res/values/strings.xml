@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">ciclovida</string>
+    <string name="usuario">Ingrese su usuario</string>
+    <string name="password">Ingrese su password</string>
+    <string name="cerrar">Salir</string>
+    <string name="acceso">Ingreso</string>
+
+    <string name="ados">Formulario</string>
+    <string name="apellido">Apellido</string>
+    <string name="edad">Edad</string>
+    <string name="e_mail">E-mail</string>
+    <string name="salvar">Guardar</string>
+    <string name="retroceder">Atras</string>
+
+
+    <string name="formulary">formulario</string>
+    <string name="nombre">Nombre</string>
+    <string name="telefono">Telefono</string>
+    <string name="cumpleanios">Cumpleaños</string>
+    <string name="sexo">Sexo</string>
+    <string name="mujer">Mujer</string>
+    <string name="hombre">hombre</string>
+    <string name="color">Color</string>
+    <string name="color_preferido">color de su preferencia</string>
+    <string name="rojo">Rojo</string>
+    <string name="verde">Verde</string>
+    <string name="amarillo">amarillo</string>
+    <string name="morado">Morado</string>
+    <string name="azul">Azul</string>
+    <string name="limpiar">Limpiar</string>
+    <string name="mostrar">Mostrar</string>
+    <string name="bienvenido">Bienvenidos</string>
+    <string name="datos">Datos</string>
+    <string name="salir">Salir</string>
+    <string name="regresar">Regresar</string>
+
+
+
+
+    <string name="Descripcion">proywgs</string>
+
+
+</resources>

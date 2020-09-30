@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Datos">
+
+    <ScrollView
+        android:layout_width="306dp"
+        android:layout_height="560dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="1000dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="230dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.872">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tVNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/nombre" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/datos" />
+
+            <TextView
+                android:id="@+id/tVTelefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/telefono" />
+
+            <TextView
+                android:id="@+id/tVEdad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cumpleanios" />
+
+            <TextView
+                android:id="@+id/tVSexo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sexo" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/color_preferido" />
+
+            <TextView
+                android:id="@+id/tVColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/color" />
+
+            <Button
+                android:id="@+id/btnExit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/salir" />
+
+            <Button
+                android:id="@+id/btnRegresar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/regresar" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
